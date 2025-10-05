@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Why I Still Write Perl in 2025 - Blog post">
+    <meta name="keywords" content="blog, article, Why I Still Write Perl in 2025">
+    <meta name="author" content="My Blog">
+    <meta property="og:title" content="Why I Still Write Perl in 2025">
+    <meta property="og:description" content="Why I Still Write Perl in 2025 - Blog post">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Why I Still Write Perl in 2025">
+    <meta name="twitter:description" content="Why I Still Write Perl in 2025 - Blog post">
+    <title>Why I Still Write Perl in 2025</title>
+    <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E📝%3C/text%3E%3C/svg%3E">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        article {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #667eea;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre code {
+            background: none;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #666;
+            font-style: italic;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background: #667eea;
+            color: white;
+        }
+        table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white !important;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            background: #5568d3;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 30px 0 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        footer a {
+            color: #667eea;
+            font-weight: 500;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .back-to-top:hover {
+            background: #5568d3;
+            transform: translateY(-3px);
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            article {
+                padding: 20px;
+            }
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to home</a>
+    <article>
+        <h1>Why I Still Write Perl in 2025</h1>
+<p><em>October 2025</em></p>
+<p>Everyone asks why I still write Perl. The answer is simple: because <code>awk</code> isn't enough and Python is too much.</p>
+<h2>The Problem With Modern Development</h2>
+<p>Your IDE weighs 500MB. Mine is <code>vim</code> and spite.</p>
+<p>Your project has 47,000 dependencies in <code>node_modules</code>. Mine has <code>use strict</code> and unresolved childhood issues.</p>
+<p>You import six libraries to parse CSV. I write <code>split /,/</code> and move on with my life.</p>
+<h2>What Perl Taught Me</h2>
+<p><strong>Everything is a string.</strong> Until it isn't. Then it's still a string.</p>
+<p><strong>Context matters.</strong> <code>@array</code> in scalar context returns its length. In list context, it returns itself. This is either genius or madness. I've been writing Perl for years and still don't know which.</p>
+<p><strong>Regex is not optional.</strong> Other languages treat regex like a feature. Perl treats it like punctuation. You don't "use" regex in Perl. You <em>are</em> regex.</p>
+<h2>The <code>func</code> Tool</h2>
+<p>I wrote a CLI tool called <code>func</code> to manage throwaway scripts. It does one thing: creates timestamped Perl scripts with boilerplate and opens them in Sublime.</p>
+<div class="codehilite"><pre><span></span><code>func<span class="w"> </span>scraper<span class="w">    </span><span class="c1"># Creates scraper-20251005_143022.pl</span>
+func<span class="w">            </span><span class="c1"># Runs the latest script</span>
+</code></pre></div>
+
+<p>No config files. No YAML. No "project structure." Just scripts that solve problems and disappear.</p>
+<p>This is what Perl is for. Not enterprise architecture. Not microservices. Just solving the problem in front of you and moving on.</p>
+<h2>Why This Matters</h2>
+<p>The industry optimizes for maintainability. Fair enough. But sometimes you need to parse 10GB of logs <em>right now</em>, and the "proper solution" involves Docker, Kubernetes, and three sprint planning meetings.</p>
+<p>Perl doesn't care about your roadmap. It cares about getting the job done.</p>
+<h2>What I'm Building</h2>
+<ul>
+<li>CLI tools that don't need frameworks</li>
+<li>Text processors that finish before Python loads its imports</li>
+<li>Scripts that solve one problem and do it in 50 lines</li>
+</ul>
+<p>No users. No metrics. No product-market fit. Just code that works.</p>
+<h2>The Vibe</h2>
+<p>I code for fun. The bugs are free. Production code pays rent. Fun code pays in dopamine and regex crimes.</p>
+<p>If your editor needs AI autocomplete, you're not programming—you're delegating. I write Perl. Every line is a vibe. The vibe is violence.</p>
+<hr />
+<p><a href="https://github.com/otechai">github</a> • <a href="/">home</a></p>
+    </article>
+    <footer>
+        <p>Made with love ❤️ 2025 | <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+    </footer>
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" title="Back to top">↑</button>
+    
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
