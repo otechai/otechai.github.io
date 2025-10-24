@@ -12,6 +12,10 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="My Blog">
     <meta name="twitter:description" content="Thoughts, stories and ideas">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="manifest" href="./data/manifest.json">
+
     <title>Otmane Echaibi Blog</title>
     <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E📝%3C/text%3E%3C/svg%3E">
     <!-- Google Analytics -->
@@ -22,12 +26,12 @@
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXXXX');
     </script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22%3E%3Crect fill=%22%23ddd%22 width=%22120%22 height=%22120%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2240%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3E👤%3C/text%3E%3C/svg%3E'">
+            <img src="./images/profile.jpg" alt="Profile Picture" class="profile-pic" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22%3E%3Crect fill=%22%23ddd%22 width=%22120%22 height=%22120%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2240%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3E👤%3C/text%3E%3C/svg%3E'">
             <h1>otmane Echaibi Blog</h1>
             <h2>Thoughts, stories, and ideas from a curious mind.</h2>
         </div>
@@ -57,7 +61,7 @@
 
         async function loadPosts() {
             try {
-                const response = await fetch('posts.json');
+                const response = await fetch('./data/posts.json');
                 allPosts = await response.json();
                 allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
                 filteredPosts = [...allPosts];
