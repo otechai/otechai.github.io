@@ -1,32 +1,8 @@
 [
   {
-    "title": "Fish vs Bash vs Zsh",
-    "date": "2025-10-23",
-    "file": "posts/fish-vs-bash-vs-zsh.html",
-    "slug": "fish-vs-bash-vs-zsh"
-  },
-  {
-    "title": "Who Cares If It's AI? Judge the Truth, Not the Typewriter",
-    "date": "2025-10-27",
-    "file": "posts/who-cares-if-it-s-ai.html",
-    "slug": "who-cares-if-it-s-ai"
-  },
-  {
-    "title": "Why a Picture Frame Manufacturer Uses Cegid",
-    "date": "2025-10-23",
-    "file": "posts/cegid-vs-odoo.html",
-    "slug": "cegid-vs-odoo"
-  },
-  {
-    "title": "Morocco Isn't Your Cheap Labor Farm",
-    "date": "2025-10-23",
-    "file": "posts/morocco-isn-t-your-cheap-labor-farm.html",
-    "slug": "morocco-isn-t-your-cheap-labor-farm"
-  },
-  {
-    "title": "Why Graphs Are Suddenly Everywhere in Science (And Look, It's Complicated)",
-    "date": "2025-10-27",
-    "file": "posts/why-do-graphs-keep-showing-up-in-every-field-of-science.html",
-    "slug": "why-do-graphs-keep-showing-up-in-every-field-of-science"
+    "title": "Why Hackers Are Essential for Democracy?",
+    "date": "2025-10-30",
+    "file": "posts/why-are-hackers-essential-for-democracy.html",
+    "slug": "why-are-hackers-essential-for-democracy"
   }
 ]
