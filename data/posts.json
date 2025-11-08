@@ -1,8 +1,20 @@
 [
   {
-    "title": "Why Hackers Are Essential for Democracy?",
-    "date": "2025-10-30",
+    "title": "Why Hackers Are Essential for Democracy",
+    "date": "2025-11-08",
     "file": "posts/why-are-hackers-essential-for-democracy.html",
     "slug": "why-are-hackers-essential-for-democracy"
+  },
+  {
+    "title": "Seeds vs Peers: A Love Story About Digital Generosity",
+    "date": "2025-11-08",
+    "file": "posts/seeds-vs-peers.html",
+    "slug": "seeds-vs-peers"
+  },
+  {
+    "title": "Threat Modeling and Why \"I Have Nothing to Hide\" Is Bollocks",
+    "date": "2025-11-08",
+    "file": "posts/what-is-threat-modeling-and-why-i-have-nothing-to-hide-is-bollocks.html",
+    "slug": "what-is-threat-modeling-and-why-i-have-nothing-to-hide-is-bollocks"
   }
 ]
