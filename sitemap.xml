@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+  </url><url>
+    <loc>https://yourdomain.com/posts/</loc>
+    <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+  </url><url>
+    <loc>https://yourdomain.com/posts/2503.01560/</loc>
+    <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+  </url><url>
+    <loc>https://yourdomain.com/categories/</loc>
+  </url><url>
+    <loc>https://yourdomain.com/tags/</loc>
+  </url>
+</urlset>
