@@ -4,8 +4,13 @@
     <title>Otmane Echaibi Blog</title>
     <link>https://otechai.github.io/</link>
     <description>Recent content on Otmane Echaibi Blog</description>
+    <image>
+      <title>Otmane Echaibi Blog</title>
+      <url>https://otechai.github.io/profile.jpg</url>
+      <link>https://otechai.github.io/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.152.2</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 15 Nov 2025 22:13:10 +0100</lastBuildDate>
     <atom:link href="https://otechai.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>

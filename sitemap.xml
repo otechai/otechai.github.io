@@ -4,15 +4,29 @@
   <url>
     <loc>https://otechai.github.io/</loc>
     <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://otechai.github.io/posts/</loc>
     <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://otechai.github.io/posts/2503.01560/</loc>
     <lastmod>2025-11-15T22:13:10+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://otechai.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://otechai.github.io/series/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://otechai.github.io/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

@@ -4,8 +4,13 @@
     <title>Categories on Otmane Echaibi Blog</title>
     <link>https://otechai.github.io/categories/</link>
     <description>Recent content in Categories on Otmane Echaibi Blog</description>
+    <image>
+      <title>Otmane Echaibi Blog</title>
+      <url>https://otechai.github.io/profile.jpg</url>
+      <link>https://otechai.github.io/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.152.2</generator>
-    <language>en</language>
+    <language>en-us</language>
     <atom:link href="https://otechai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
