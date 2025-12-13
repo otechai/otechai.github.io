@@ -28,7 +28,7 @@ This is why the doctor often doesn’t explain *why* you are sick; he just hands
 
 ### The Rise of the Radio High Priest
 
-Nature abhors a vacuum, and so does the Moroccan psyche. Into this void step the "Radio Gurus," the social coaches, the Mamoun Mobarak Dribis of the world.
+Nature abhors a vacuum, and so does the Moroccan psyche. Into this void step the "Radio Gurus," the social coaches...
 
 Now, I want to be fair here. It is too easy to dismiss these figures as mere populists. They are doing something the state has failed to do for sixty years: **They are speaking Darija.**
 
@@ -64,7 +64,7 @@ Suddenly, the "Middleman Monopoly" is breaking. You can Google your symptoms (th
 
 But we have swung from one extreme to the other. We went from having **Zero Information** to having **Infinite Misinformation**.
 
-Instead of one Mamoun Mobarak Dribi, we now have ten thousand TikTok "coaches," crypto-experts, and herbal healers. The gate is open, but the garden is full of weeds. We are seeing a democratization of the *Samsar*. Everyone is now a broker of truth.
+We now have ten thousand TikTok "coaches," crypto-experts, and herbal healers. The gate is open, but the garden is full of weeds. We are seeing a democratization of the *Samsar*. Everyone is now a broker of truth.
 
 This is the chaotic jazz phase of our development. It’s messy, loud, and often wrong. But it’s arguably better than the silence that came before. At least now, we can argue back.
 
@@ -92,15 +92,3 @@ It is time to storm the castle—not with pitchforks, but with questions.
 We need to realize that the *Samsar*, the radio guru, and the connection are crutches for a broken leg. The goal shouldn’t be to get a better crutch; the goal should be to heal the leg so we can walk on our own.
 
 The truth is not a secret to be whispered by a chosen few. It is a public utility, like water or electricity. And like water, it should flow directly to the tap, clear, clean, and available to everyone, without anyone standing in the middle holding a bucket and charging admission.
-
-***
-
-### **References & Further Reading**
-
-If you wish to season your brain further, consider these ingredients:
-
-*   **"The Wretched of the Earth" by Frantz Fanon** – Essential for understanding the psychology of the colonized and how elites perpetuate colonial structures.
-*   **"Discipline and Punish" by Michel Foucault** – For a heavy but rewarding look at how power, knowledge, and institutions control bodies (and minds).
-*   **"Orientalism" by Edward Said** – To understand how "The West" (and our own elites) construct an image of "The East" that justifies control.
-*   **"Le Pain Nu" (For Bread Alone) by Mohamed Choukri** – The ultimate antidote to elite narratives. A raw, brutal look at life on the margins in Morocco, written from the gut, not the ivory tower.
-*   **"Beyond the Veil" by Fatima Mernissi** – A brilliant Moroccan sociologist who stripped away the layers of religious and social intermediation to look at gender and power directly.
