@@ -5,66 +5,6 @@
       "slug": "why-does-the-truth-in-morocco-always-require-a-middleman",
       "date": "2025-12-13",
       "excerpt": "If you have ever stood in a Moroccan administrative line\u2014clutching a plastic folder containing your birth certificate, two photos on a white background, and the palpable fear of God\u2014you know the feeli..."
-    },
-    {
-      "title": "Building Fast Web Applications with Modern JavaScript",
-      "slug": "building-fast-web-apps",
-      "date": "2024-12-10",
-      "excerpt": "Learn the essential techniques for creating lightning-fast web applications using modern JavaScript frameworks and optimization strategies."
-    },
-    {
-      "title": "The Art of Clean Code: Best Practices",
-      "slug": "clean-code-best-practices",
-      "date": "2024-12-05",
-      "excerpt": "Discover the principles and patterns that make code maintainable, readable, and scalable for long-term projects."
-    },
-    {
-      "title": "CSS Grid vs Flexbox: When to Use What",
-      "slug": "css-grid-vs-flexbox",
-      "date": "2024-11-28",
-      "excerpt": "A comprehensive guide to understanding the differences between CSS Grid and Flexbox, and choosing the right tool for your layouts."
-    },
-    {
-      "title": "Getting Started with TypeScript in 2024",
-      "slug": "typescript-getting-started",
-      "date": "2024-11-20",
-      "excerpt": "TypeScript has become essential for modern web development. Here's everything you need to know to get started."
-    },
-    {
-      "title": "Optimizing React Performance: Tips and Tricks",
-      "slug": "react-performance-optimization",
-      "date": "2024-11-15",
-      "excerpt": "Practical techniques to make your React applications faster and more efficient, from memoization to code splitting."
-    },
-    {
-      "title": "Understanding Async/Await in JavaScript",
-      "slug": "async-await-javascript",
-      "date": "2024-11-08",
-      "excerpt": "Master asynchronous programming in JavaScript with this deep dive into promises, async/await, and error handling."
-    },
-    {
-      "title": "Responsive Design Principles for 2024",
-      "slug": "responsive-design-2024",
-      "date": "2024-10-30",
-      "excerpt": "Modern approaches to creating websites that work beautifully across all devices and screen sizes."
-    },
-    {
-      "title": "Building a REST API with Node.js and Express",
-      "slug": "nodejs-rest-api",
-      "date": "2024-10-22",
-      "excerpt": "Step-by-step guide to creating a robust REST API using Node.js, Express, and best practices for API design."
-    },
-    {
-      "title": "Git Workflow: Branching Strategies Explained",
-      "slug": "git-branching-strategies",
-      "date": "2024-10-15",
-      "excerpt": "Learn different Git branching models and find the workflow that best fits your team's development process."
-    },
-    {
-      "title": "Web Accessibility: Making the Internet for Everyone",
-      "slug": "web-accessibility-guide",
-      "date": "2024-10-08",
-      "excerpt": "Essential accessibility guidelines and techniques to ensure your websites are usable by everyone."
     }
   ]
 }
