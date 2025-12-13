@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About page and CV for Your Name - Full Stack Developer specializing in modern web technologies.">
+    <meta name="keywords" content="about, cv, resume, portfolio, developer, full stack">
+    <title>About - Your Name</title>
+    <link rel="icon" type="image/jpeg" href="static/profile.jpg">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">OE</a>
+            <div class="nav-links">
+                <a href="index.html">Blog</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container cv">
+        <header class="cv-header">
+            <img src="static/profile.jpg" alt="Profile" class="profile-img">
+            <h1>Otmane Echaibi</h1>
+            <p class="title">Full Stack Developer</p>
+            <div class="contact">
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                <a href="https://github.com/yourusername">GitHub</a>
+                <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            </div>
+        </header>
+
+        <section class="cv-section">
+            <h2>About Me</h2>
+            <p>Passionate developer with 5+ years of experience building modern web applications. I specialize in creating fast, accessible, and user-friendly experiences. I love open source and sharing knowledge through writing.</p>
+        </section>
+
+        <section class="cv-section">
+            <h2>Experience</h2>
+            <div class="cv-item">
+                <h3>Senior Developer</h3>
+                <p class="meta">Tech Company · 2021 - Present</p>
+                <ul>
+                    <li>Led development of high-performance web applications serving 1M+ users</li>
+                    <li>Architected scalable microservices using Node.js and React</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                </ul>
+            </div>
+            <div class="cv-item">
+                <h3>Full Stack Developer</h3>
+                <p class="meta">Startup Inc · 2019 - 2021</p>
+                <ul>
+                    <li>Built and deployed multiple client projects from concept to production</li>
+                    <li>Implemented responsive designs and optimized performance</li>
+                    <li>Collaborated with designers and product managers</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Python</span>
+                <span>CSS/Sass</span>
+                <span>Git</span>
+                <span>Docker</span>
+                <span>AWS</span>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p class="meta">University Name · 2015 - 2019</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
