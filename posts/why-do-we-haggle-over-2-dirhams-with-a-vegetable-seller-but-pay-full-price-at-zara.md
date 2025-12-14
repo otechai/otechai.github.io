@@ -1,4 +1,4 @@
-**The Price Tag as a Silencer: Why We Crush the Weak and Bow to the Corporate**
+**Why do we haggle over 2 dirhams with a vegetable seller but pay full price at Zara**
 
 There is a specific, tragicomical pantomime that occurs every Saturday morning across Morocco. It happens in the narrow, sun-drenched alleys of the medinas and the chaotic sprawls of the weekly souks.
 
