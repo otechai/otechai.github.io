@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "title": "Untitled Post",
+      "slug": "why-does-the-baccalaureate-in-morocco-feel-like-a-life-or-death-sentence",
+      "date": "2025-12-22",
+      "excerpt": ""
+    },
+    {
       "title": "Why do we haggle over 2 dirhams with a vegetable seller but pay full price at Zara",
       "slug": "why-do-we-haggle-over-2-dirhams-with-a-vegetable-seller-but-pay-full-price-at-zara",
       "date": "2025-12-14",
@@ -10,7 +16,7 @@
       "title": "Why does the Public Hospital in Morocco Smells Like Bleach and Despair",
       "slug": "why-does-the-public-hospital-in-morocco-smell-like-bleach-and-despair",
       "date": "2025-12-13",
-      "excerpt": "There is a specific scent that hits you the moment you cross the threshold of a Moroccan public hospital—let’s say, ...."
+      "excerpt": "There is a specific scent that hits you the moment you cross the threshold of a Moroccan public hospital\u2014let\u2019s say, ...."
     },
     {
       "title": "The Samsar of the Soul: Why Truth in Morocco Always Needs a Middleman",
