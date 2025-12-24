@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "title": "Untitled Post",
+      "slug": "good-programmers-copy-code-great-programmers-steal-ideas",
+      "date": "2025-12-24",
+      "excerpt": ""
+    },
+    {
       "title": "Why does the Baccalaureate in Morocco feel like a life-or-death sentence?",
       "slug": "why-does-the-baccalaureate-in-morocco-feel-like-a-life-or-death-sentence",
       "date": "2025-12-22",
