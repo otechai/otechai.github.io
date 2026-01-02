@@ -1,3 +1,4 @@
+## Why Moroccans SMES should use odoo
 Here is the truth about running a small to medium-sized enterprise (SME) in Morocco today: it is an act of heroic improvisation.
 
 I’ve spent enough time drinking mint tea in the back offices of Casablanca textile firms and Agadir distribution centers to know the score. You have a business owner—let’s call him Si Mohammed—who has built something remarkable from nothing. He has grit, he has market instinct, and he knows everyone in his sector by name.
