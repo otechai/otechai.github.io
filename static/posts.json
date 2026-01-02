@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "title": "Untitled Post",
+      "slug": "why-moroccan-smes-should-use-odoo",
+      "date": "2026-01-02",
+      "excerpt": ""
+    },
+    {
+      "title": "Untitled Post",
+      "slug": "the-kenitra-paradox",
+      "date": "2026-01-02",
+      "excerpt": ""
+    },
+    {
       "title": "What is a Man Worth Before the Sun Comes Up in?",
       "slug": "what-is-a-man-worth-before-the-sun-comes-up",
       "date": "2025-12-28",
