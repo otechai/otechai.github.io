@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover why prime numbers appear random yet follow hidden patterns. A visual journey through the Riemann Hypothesis and the music of mathematics.">
+    <meta name="keywords" content="mathematics, prime numbers, Riemann Hypothesis, number theory, patterns, randomness, blog">
+    <meta name="author" content="Otmane Echaibi">
+    <title>The Secret Music of Prime Numbers</title>
+    <link rel="icon" type="image/jpeg" href="../static/profile.jpg">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo">OE</a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <article class="post-content">
+            <header class="post-header">
+                <h1>The Secret Music of Prime Numbers</h1>
+                <p class="meta">January 02, 2026</p>
+            </header>
+            
+            <p>I'll bet you 100 dirhams you can't predict the next prime number after 97.</p>
+
+            <p>Sure, you could say 101. But here's the trick: explain <em>why</em> it's 101 without checking every single number between 97 and 101. You can't. Nobody can. The primes guard their secrets jealously.</p>
+
+            <p>And yet. And <em>yet</em>. If I asked you how many primes exist below one million, you could get within 5% of the right answer using a formula that fits on a napkin. Something impossibly strange is happening here.</p>
+
+            <h2>The Sandbox: Counting Primes Like a Child</h2>
+
+            <p>Let's shrink the universe. Forget infinity for a moment. Let's just count primes up to 20.</p>
+
+            <p>I'll write them out by hand:</p>
+
+            <pre><code>2, 3, 5, 7, 11, 13, 17, 19</code></pre>
+
+            <p>Eight primes. Now watch what happens when I ask: what's the <em>gap</em> between consecutive primes?</p>
+
+            <ol>
+                <li>Between 2 and 3: gap of <strong>1</strong></li>
+                <li>Between 3 and 5: gap of <strong>2</strong></li>
+                <li>Between 5 and 7: gap of <strong>2</strong></li>
+                <li>Between 7 and 11: gap of <strong>4</strong></li>
+                <li>Between 11 and 13: gap of <strong>2</strong></li>
+                <li>Between 13 and 17: gap of <strong>4</strong></li>
+                <li>Between 17 and 19: gap of <strong>2</strong></li>
+            </ol>
+
+            <p>The gaps jump around: 1, 2, 2, 4, 2, 4, 2. No obvious pattern. It feels random, like someone rolled dice to place them.</p>
+
+            <p>But now do this: count how many primes we found up to each number. At 10, we have 4 primes. At 20, we have 8 primes. We doubled our search range and... we doubled the count?</p>
+
+            <p>Not exactly. But <em>roughly</em>. And that "roughly" is where the magic lives.</p>
+
+            <p>Here's your first small win: <strong>You just discovered that primes thin out predictably, even though their locations don't.</strong></p>
+
+            <h2>The Zoom-Out: From Counting to Seeing</h2>
+
+            <p>Stop thinking about primes as numbers on a line. Think of them as <strong>trees in a forest</strong>.</p>
+
+            <p>Walk through the forest from zero onward. At first, near the entrance, trees are everywhere. You can barely move without hitting one. But as you walk deeper—past 100, past 1,000, past a million—the trees spread out. You walk longer stretches between them.</p>
+
+            <p>This is the Prime Number Theorem: the <em>density</em> of primes follows a smooth, beautiful curve. Specifically, the density near a number <code>x</code> is approximately <code>1 / ln(x)</code>, where <code>ln</code> is the natural logarithm.</p>
+
+            <p>Translation: primes don't know where they are individually, but <em>collectively</em> they obey a law. It's like particles in a gas—each one bounces randomly, but the pressure follows perfect equations.</p>
+
+            <p>The individual locations are chaos. The average behavior is music.</p>
+
+            <p>Why does this happen? Nobody told the primes to do this. There's no prime council meeting where they vote on density. And yet here we are, writing <code>π(x) ≈ x / ln(x)</code> and watching it work.</p>
+
+            <h2>The Formalism: Writing Down the Impossible</h2>
+
+            <p>Mathematicians got tired of saying "the number of primes less than <code>x</code> grows like <code>x</code> divided by its natural logarithm," so they compressed it.</p>
+
+            <blockquote>
+                <p><strong>The Core Idea:</strong><br>
+                The primes thin out at a predictable rate, even though we can't predict individual locations.</p>
+                
+                <p><strong>The Mathematical Notation:</strong><br>
+                <code>π(x) ~ x / ln(x)</code></p>
+                
+                <p><strong>The Translation:</strong><br>
+                <code>π(x)</code> = how many primes exist below <code>x</code><br>
+                <code>~</code> = approximately equal (gets more accurate as <code>x</code> grows)<br>
+                <code>ln(x)</code> = natural logarithm of <code>x</code></p>
+            </blockquote>
+
+            <p>This formula answers the question from our sandbox: there are roughly 78,498 primes below one million. The actual answer? 78,498. The formula <em>nails it</em>.</p>
+
+            <p>But here's where it gets weird. That tilde symbol <code>~</code> is hiding something. The formula isn't <em>exact</em>. There's an error term, a wobble, a deviation from the smooth curve. And when Riemann looked at that wobble in 1859, he saw something that made him gasp.</p>
+
+            <p>The errors weren't random. They were <strong>oscillating</strong>. Like a wave. Like music.</p>
+
+            <p>He found that if you plot the difference between the actual prime count and the smooth prediction, it hums with hidden frequencies. And those frequencies? They're controlled by something called the <em>zeros of the zeta function</em>—numbers in the complex plane that dictate where primes appear.</p>
+
+            <p>Suddenly, primes weren't random at all. They were a symphony we didn't know how to hear yet.</p>
+
+            <h2>The Skylight: What We Still Don't Know</h2>
+
+            <p>Every secure message you send—your credit card, your passwords, your private photos—depends on the fact that multiplying two large primes is easy, but factoring the result back into those primes is absurdly hard. We trust our secrets to prime randomness.</p>
+
+            <p>But we still don't know if Riemann was right. His hypothesis—that all those special zeros lie on a single line in the complex plane—remains unproven after 165 years. If he's correct, the "music" of primes is perfectly in tune. If he's wrong, the chaos is deeper than we thought.</p>
+
+            <p>And here's the thing that keeps me up at night: the primes don't <em>care</em> whether we understand them. They were here before humans, before Earth, before the universe cooled enough for matter to exist. They'll be here after.</p>
+
+            <p>We're just listening to their song, trying to write down the melody before we forget it.</p>
+
+            <p>Can you hear it?</p>
+            
+        </article>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Otmane Echaibi. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
