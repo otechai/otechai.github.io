@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>otechai — coming soon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f6f3;
+    --ink: #141414;
+    --ink-soft: #5a5a56;
+    --rule: #d8d6d0;
+    --signal: #d64545;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 24px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+  .card {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin: 0 auto 28px;
+    border: 1px solid var(--rule);
+    filter: grayscale(35%);
+  }
+
+  h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1.35rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 8px;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    margin: 0 0 36px;
+    line-height: 1.5;
+  }
+
+  .terminal {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 18px 20px;
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.85rem;
+  }
+
+  .terminal .line {
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+  }
+
+  .terminal .prompt {
+    color: var(--ink);
+  }
+
+  .terminal .status {
+    color: var(--signal);
+    font-weight: 500;
+  }
+
+  #typed::after {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 1em;
+    background: var(--signal);
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  footer {
+    margin-top: 28px;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  footer a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  footer a:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="avatar" src="profile.jpg" alt="Profile photo">
+    <h1>otechai</h1>
+    <p class="tagline">Notes on tools, small utilities, and things worth building but rarely built.</p>
+
+    <div class="terminal">
+      <div class="line"><span class="prompt">sol@otechai</span>:~$ blog --status</div>
+      <div class="line"><span id="typed"></span></div>
+    </div>
+
+    <footer>
+      <a href="https://github.com/otechai" target="_blank" rel="noopener">github.com/otechai</a>
+    </footer>
+  </div>
+
+<script>
+  const text = "coming soon";
+  const el = document.getElementById('typed');
+  let i = 0;
+
+  function type() {
+    if (i <= text.length) {
+      el.textContent = text.slice(0, i);
+      el.classList.add('status');
+      i++;
+      setTimeout(type, 90);
+    }
+  }
+
+  type();
+</script>
+
+</body>
+</html>
