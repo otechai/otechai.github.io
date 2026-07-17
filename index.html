@@ -1,160 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>otechai — coming soon</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --paper: #f7f6f3;
-    --ink: #141414;
-    --ink-soft: #5a5a56;
-    --rule: #d8d6d0;
-    --signal: #d64545;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  * { box-sizing: border-box; }
+  <!-- ── Primary SEO ── -->
+  <title>Otmane Echaibi — Open Source Dev</title>
+  <meta name="description"
+    content="Notes from the trenches of open source: Odoo internals, Firefox hacking, Linux kernel patches, and whatever breaks first. Written in Morocco." />
+  <meta name="keywords"
+    content="open source, Odoo, Firefox, Linux kernel, ERP, Mozilla, kernel development, Morocco, open source developer, internet culture, free software, FOSS" />
+  <meta name="author" content="Otmane Echaibi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://acidicroots.github.io/" />
 
-  body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 24px;
-  }
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Otmane Echaibi" />
+  <meta property="og:title"       content="Otmane Echaibi — Open Source Dev" />
+  <meta property="og:description" content="Notes from the trenches of open source: Odoo, Firefox, Linux kernel. From Morocco." />
+  <meta property="og:url"         content="https://acidicroots.github.io/" />
+  <meta property="og:image"       content="https://acidicroots.github.io/profile.jpg" />
+  <meta property="og:locale"      content="en_US" />
 
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; }
-  }
+  <!-- ── Twitter / X Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Otmane Echaibi — Open Source Dev" />
+  <meta name="twitter:description" content="Open source developer. Odoo · Firefox · Linux kernel. Notes from Morocco." />
+  <meta name="twitter:image"       content="https://acidicroots.github.io/profile.jpg" />
 
-  .card {
-    width: 100%;
-    max-width: 440px;
-    text-align: center;
+  <!-- ── Structured Data (JSON-LD) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Otmane Echaibi",
+    "description": "Notes from the trenches of open source: Odoo internals, Firefox hacking, Linux kernel patches.",
+    "url": "https://acidicroots.github.io",
+    "author": {
+      "@type": "Person",
+      "name": "Otmane Echaibi",
+      "email": "otmanova@proton.me",
+      "url": "https://github.com/acidicroots"
+    },
+    "inLanguage": "en"
   }
+  </script>
 
-  .avatar {
-    width: 96px;
-    height: 96px;
-    border-radius: 4px;
-    object-fit: cover;
-    margin: 0 auto 28px;
-    border: 1px solid var(--rule);
-    filter: grayscale(35%);
-  }
+  <!-- ── Favicon: profile.jpg ── -->
+  <link rel="icon" type="image/jpeg" href="profile.jpg" />
+  <link rel="shortcut icon" href="profile.jpg" />
 
-  h1 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 600;
-    font-size: 1.35rem;
-    letter-spacing: -0.01em;
-    margin: 0 0 8px;
-  }
-
-  .tagline {
-    font-size: 0.95rem;
-    color: var(--ink-soft);
-    margin: 0 0 36px;
-    line-height: 1.5;
-  }
-
-  .terminal {
-    border: 1px solid var(--rule);
-    border-radius: 4px;
-    background: #ffffff;
-    padding: 18px 20px;
-    text-align: left;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.85rem;
-  }
-
-  .terminal .line {
-    color: var(--ink-soft);
-    margin-bottom: 6px;
-  }
-
-  .terminal .prompt {
-    color: var(--ink);
-  }
-
-  .terminal .status {
-    color: var(--signal);
-    font-weight: 500;
-  }
-
-  #typed::after {
-    content: '';
-    display: inline-block;
-    width: 7px;
-    height: 1em;
-    background: var(--signal);
-    margin-left: 2px;
-    vertical-align: text-bottom;
-    animation: blink 1s step-end infinite;
-  }
-
-  @keyframes blink {
-    50% { opacity: 0; }
-  }
-
-  footer {
-    margin-top: 28px;
-    font-size: 0.78rem;
-    color: var(--ink-soft);
-  }
-
-  footer a {
-    color: var(--ink-soft);
-    text-decoration: none;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  footer a:hover {
-    color: var(--ink);
-    border-color: var(--ink);
-  }
-</style>
+  <!-- ── Styles ── -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <div class="card">
-    <img class="avatar" src="profile.jpg" alt="Profile photo">
-    <h1>otechai</h1>
-    <p class="tagline">Notes on tools, small utilities, and things worth building but rarely built.</p>
-
-    <div class="terminal">
-      <div class="line"><span class="prompt">sol@otechai</span>:~$ blog --status</div>
-      <div class="line"><span id="typed"></span></div>
+  <!-- ══════════════════════════════════════════
+       SITE HEADER
+  ══════════════════════════════════════════ -->
+  <header id="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <div>
+          <a class="site-title" href="/" aria-label="Otmane Echaibi — Home">
+            <span>$_</span> Otmane Echaibi
+          </a>
+          <p class="site-tagline">open source developer · odoo · firefox · linux kernel</p>
+        </div>
+        <nav id="main-nav" aria-label="Main navigation">
+          <a href="/" class="active">Home</a>
+          <a href="#about-anchor">About</a>
+        </nav>
+      </div>
     </div>
+  </header>
 
-    <footer>
-      <a href="https://github.com/otechai" target="_blank" rel="noopener">github.com/otechai</a>
-    </footer>
-  </div>
+  <!-- ══════════════════════════════════════════
+       SEARCH
+  ══════════════════════════════════════════ -->
+  <section id="search-section" aria-label="Search posts">
+    <div class="container">
+      <div class="search-inner">
+        <label for="search-input" class="sr-only">Search articles</label>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search posts, topics, projects…"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Search dev articles"
+        />
+        <button id="search-btn" type="button" aria-label="Submit search">Search</button>
+        <button id="clear-search" type="button" aria-label="Clear search">Clear</button>
+        <span class="search-count" id="search-count" aria-live="polite" aria-atomic="true"></span>
+      </div>
+    </div>
+  </section>
 
-<script>
-  const text = "coming soon";
-  const el = document.getElementById('typed');
-  let i = 0;
+  <!-- ══════════════════════════════════════════
+       MAIN
+  ══════════════════════════════════════════ -->
+  <main id="content" role="main">
+    <div class="container">
+      <div id="main-content">
 
-  function type() {
-    if (i <= text.length) {
-      el.textContent = text.slice(0, i);
-      el.classList.add('status');
-      i++;
-      setTimeout(type, 90);
-    }
-  }
+        <!-- ── Post List ── -->
+        <section id="posts-section" aria-label="Articles">
+          <h2 class="section-heading">Posts</h2>
 
-  type();
-</script>
+          <div id="posts-list" aria-live="polite" aria-atomic="false">
+            <p style="color:var(--ink-faint);font-style:italic;">Loading posts…</p>
+          </div>
 
+          <p id="no-results" role="status" aria-live="polite">
+            No posts match your search. Try different keywords or
+            <button id="reset-btn" style="background:none;border:none;color:var(--accent);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">clear all filters</button>.
+          </p>
+
+          <!-- Pagination -->
+          <nav id="pagination" aria-label="Pagination">
+            <!-- Populated by JS -->
+          </nav>
+        </section>
+
+        <!-- ── Sidebar ── -->
+        <aside id="sidebar" aria-label="Sidebar">
+
+          <!-- About -->
+          <div class="sidebar-block" id="about-anchor">
+            <h2 class="sidebar-title">About</h2>
+            <div class="about-card">
+              <img
+                class="profile-img"
+                src="profile.jpg"
+                alt="Otmane Echaibi"
+                width="72"
+                height="72"
+                onerror="this.style.display='none'"
+              />
+              <div>
+                <p class="profile-name">Otmane Echaibi</p>
+                <p class="profile-bio">
+                  Open source developer from Morocco.
+                  I work on Odoo ERP internals, contribute to Firefox,
+                  and occasionally dive into the Linux kernel.
+                  I write about what I find, what breaks, and what actually matters
+                  in free software.
+                </p>
+              </div>
+            </div>
+            <p style="margin-top:.85rem;font-family:var(--mono);font-size:.78rem;">
+              <a href="https://github.com/acidicroots">github.com/acidicroots</a><br/>
+              <a href="mailto:otmanova@proton.me">otmanova@proton.me</a>
+            </p>
+          </div>
+
+          <!-- Recent posts -->
+          <div class="sidebar-block">
+            <h2 class="sidebar-title">Recent Posts</h2>
+            <ul class="recent-list" id="recent-list" aria-label="Recent articles">
+              <!-- Populated by JS -->
+            </ul>
+          </div>
+
+          <!-- Motto -->
+          <div class="sidebar-block">
+            <h2 class="sidebar-title">The Principle</h2>
+            <div class="axiom-box">
+              <strong>Richard Stallman</strong>
+              Free software is a matter of liberty, not price.
+            </div>
+          </div>
+
+        </aside>
+
+      </div><!-- /#main-content -->
+    </div><!-- /.container -->
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <strong>$_ Otmane Echaibi</strong><br />
+          No cookies. No tracking. No ads. Just open source.<br />
+          <a href="https://github.com/acidicroots">GitHub</a> &middot;
+          <a href="mailto:otmanova@proton.me">Email</a>
+        </div>
+        <div class="footer-right">
+          Software is political.<br />
+          Choose your side carefully.<br />
+          <em>— the internet</em>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var resetBtn = document.getElementById("reset-btn");
+      if (resetBtn) {
+        resetBtn.addEventListener("click", function () {
+          var si = document.getElementById("search-input");
+          if (si) si.value = "";
+          window.location.href = window.location.pathname;
+        });
+      }
+    });
+  </script>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
