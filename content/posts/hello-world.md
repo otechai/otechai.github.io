@@ -1,6 +1,6 @@
 +++
 date = '2026-07-26T13:26:00+01:00'
-draft = true
+draft = false
 title = 'Hello World'
 description = "Kicking off a new blog about code, math, and running."
 summary = "Kicking off a new blog about code, math, and running."
