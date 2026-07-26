@@ -1,0 +1,157 @@
+baseURL = "https://otechai.github.io/"
+locale = "en-us"
+title = "Otmane Echaibi"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+
+pagination.pagerSize = 10
+
+[minify]
+  disableXML = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  title = "Otmane Echaibi"
+  description = "Digital nomad, open source developer, amateur mathematician, blogger, and marathon runner. Writing about code, math, and life on the road."
+  keywords = ["Otmane Echaibi", "otechai", "python", "open source", "digital nomad", "blog", "marathon running", "mathematics"]
+  author = "Otmane Echaibi"
+  images = ["img/profile.jpg"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  hidemeta = false
+  comments = false
+  mainSections = ["posts"]
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Otmane 👋"
+    Content = "I'm a digital nomad and open source developer — Python by trade, mathematician by hobby, marathon runner by obsession. This is where I write about code, numbers, running, and life between time zones."
+
+  [params.profileMode]
+    enabled = true
+    title = "Otmane Echaibi"
+    subtitle = "Digital nomad · Open source developer · Amateur mathematician · Marathon runner · Pythonista"
+    imageUrl = "img/profile.jpg"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Otmane Echaibi"
+    buttons = [
+      { name = "Blog", url = "posts" },
+      { name = "About", url = "about" },
+      { name = "Tags", url = "tags" }
+    ]
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.editPost]
+    URL = "https://github.com/otechai/otechai.github.io/tree/main/content"
+    Text = "Suggest changes"
+    appendFilePath = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+
+  # Explicit favicon paths — PaperMod's auto-detection sometimes loses to
+  # aggressive browser favicon caching; declaring these forces a fresh fetch.
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon.ico"
+    favicon32x32 = "favicon.ico"
+    apple_touch_icon = "apple-touch-icon.png"
+    disableFingerprinting = false
+
+  # SEO: verification meta tags (paste your codes in once you register the site)
+  [params.analytics.google]
+    SiteVerificationTag = ""   # Google Search Console verification string
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/otechai"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:otmanova@proton.me"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "index.xml"
+
+[[params.socialIcons]]
+  name = "buymeacoffee"
+  url = "https://www.buymeacoffee.com/otechai"
+
+# Add more later as you create accounts, e.g.:
+# [[params.socialIcons]]
+#   name = "x"
+#   url = "https://x.com/your_handle"
+#
+# [[params.socialIcons]]
+#   name = "mastodon"
+#   url = "https://mastodon.social/@your_handle"
+#
+# [[params.socialIcons]]
+#   name = "strava"
+#   url = "https://www.strava.com/athletes/your_id"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+  [markup.goldmark.renderer]
+    unsafe = true
