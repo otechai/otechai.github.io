@@ -2,6 +2,7 @@
 date = '2026-08-04T12:36:06+01:00'
 draft = false
 title = 'Perl Lets the Same Line Mean Two Different Things  on Purpose'
+tags: ["perl", "context", "programming"]
 +++
 # The Same Line of Code Can Mean Two Different Things — And Perl Does This On Purpose
 
