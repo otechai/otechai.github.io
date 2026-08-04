@@ -16,8 +16,8 @@ pagination.pagerSize = 10
 [params]
   env = "production"
   title = "Otmane Echaibi"
-  description = "Digital nomad, open source developer, amateur mathematician, blogger, and marathon runner. Writing about code, math, and life on the road."
-  keywords = ["Otmane Echaibi", "otechai", "python", "open source", "digital nomad", "blog", "marathon running", "mathematics"]
+  description = "Perl hacker, Raku developer, old school internet user, digital nomad, and amateur mathematician. Writing about code, math, and life on the road."
+  keywords = ["Otmane Echaibi", "otechai", "perl", "raku", "old school internet", "digital nomad", "blog", "mathematics"]
   author = "Otmane Echaibi"
   images = ["img/profile.jpg"]
   DateFormat = "January 2, 2006"
@@ -39,12 +39,12 @@ pagination.pagerSize = 10
 
   [params.homeInfoParams]
     Title = "Hi, I'm Otmane 👋"
-    Content = "I'm a digital nomad and open source developer — Python by trade, mathematician by hobby, marathon runner by obsession. This is where I write about code, numbers, running, and life between time zones."
+    Content = "I'm a Perl hacker and Raku developer — old school internet user by nature, digital nomad by circumstance, mathematician by hobby. This is where I write about code, numbers, and life between time zones."
 
   [params.profileMode]
     enabled = true
     title = "Otmane Echaibi"
-    subtitle = "Digital nomad · Open source developer · Amateur mathematician · Marathon runner · Pythonista"
+    subtitle = "Perl hacker · Raku developer · Old school internet user · Digital nomad · Amateur mathematician"
     imageUrl = "img/profile.jpg"
     imageWidth = 150
     imageHeight = 150
@@ -115,10 +115,6 @@ pagination.pagerSize = 10
 # [[params.socialIcons]]
 #   name = "mastodon"
 #   url = "https://mastodon.social/@your_handle"
-#
-# [[params.socialIcons]]
-#   name = "strava"
-#   url = "https://www.strava.com/athletes/your_id"
 
 [menu]
   [[menu.main]]
