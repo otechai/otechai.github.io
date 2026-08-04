@@ -2,7 +2,7 @@
 title: "About"
 layout: "single"
 url: "/about/"
-summary: "About Otmane Echaibi — digital nomad, open source developer, mathematician, marathon runner."
+summary: "About Otmane Echaibi — Perl hacker, Raku developer, old school internet user, digital nomad, amateur mathematician."
 hidemeta: true
 ShowReadingTime: false
 ShowShareButtons: false
@@ -11,18 +11,18 @@ ShowPostNavLinks: false
 
 ## Hi, I'm Otmane 👋
 
-I'm a **digital nomad** and **open source developer** who's spent the last several years building software from wherever the wifi is good — coffee shops, co-working spaces, trains, and the occasional airport lounge.
+I'm a **Perl hacker** and **Raku developer** who's spent the last several years building software from wherever the wifi is good — coffee shops, trains ... Call me a **digital nomad**, if you like labels.
 
-By day, I write **Python** — clean, tested, and (usually) well-documented. By night, I chase problems that don't pay: I'm an amateur mathematician who enjoys number theory and the kind of proofs that ruin a good night's sleep in the best way.
+I'm also an **old school internet user** — I remember when the web felt smaller, weirder, and more like a place people built rather than a product people consumed. That spirit still shapes how I write code and how I write here: plain text, RSS, no tracking, no nonsense.
 
-I also run marathons. Slowly, stubbornly, and with a suspicious amount of joy for someone who's just run 42.195km. Running and mathematics have more in common than people think — both reward patience, and both punish shortcuts.
+By night, I chase problems that don't pay: I'm an **amateur mathematician** who enjoys number theory and the kind of proofs that ruin a good night's sleep in the best way.
 
-This blog is where all of that collides: open source write-ups, math I find beautiful, notes from the road, and the occasional race report.
+This blog is where all of that collides: Perl and Raku write-ups, math I find beautiful, and notes from the road.
 
 ### What you'll find here
-- **Code** — Python projects, tools, and open source contributions
+- **Code** — Perl and Raku projects, tools, and hacks
 - **Math** — problems and proofs I find genuinely fun
-- **Running** — marathon training notes and race reports
+- **Internet culture** — old school web, small tech, and doing more with less
 - **Life on the road** — reflections from the digital nomad life
 
 ### Get in touch
