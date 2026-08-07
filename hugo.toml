@@ -16,8 +16,8 @@ pagination.pagerSize = 10
 [params]
   env = "production"
   title = "Otmane Echaibi"
-  description = "Perl hacker, Raku developer, old school internet user, digital nomad, and amateur mathematician. Writing about code, math, and life on the road."
-  keywords = ["Otmane Echaibi", "otechai", "perl", "raku", "old school internet", "digital nomad", "blog", "mathematics"]
+  description = "Otmane Echaibi is a web developer and Pythonista who codes in Rust, JavaScript, Lua, and fish shell. Amateur mathematician, lifelong bookworm, and old school internet user writing about code, math, and books."
+  keywords = ["Otmane Echaibi", "otechai", "web developer", "python", "pythonista", "rust", "javascript", "lua", "fish shell", "old school internet", "digital nomad", "blog", "mathematics", "bookworm"]
   author = "Otmane Echaibi"
   images = ["img/profile.jpg"]
   DateFormat = "January 2, 2006"
@@ -39,12 +39,12 @@ pagination.pagerSize = 10
 
   [params.homeInfoParams]
     Title = "Hi, I'm Otmane 👋"
-    Content = "I'm a Perl hacker and Raku developer — old school internet user by nature, digital nomad by circumstance, mathematician by hobby. This is where I write about code, numbers, and life between time zones."
+    Content = "I'm a web developer and Pythonista who codes in Rust, JavaScript, Lua, and fish shell — old school internet user by nature, digital nomad by circumstance, mathematician and bookworm by hobby. This is where I write about code, numbers, books, and life between time zones."
 
   [params.profileMode]
     enabled = true
     title = "Otmane Echaibi"
-    subtitle = "Perl hacker · Raku developer · Old school internet user · Digital nomad · Amateur mathematician"
+    subtitle = "Web developer · Pythonista · Rust/JS/Lua/fish · Amateur mathematician · Bookworm"
     imageUrl = "img/profile.jpg"
     imageWidth = 150
     imageHeight = 150
