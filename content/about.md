@@ -2,7 +2,7 @@
 title: "About"
 layout: "single"
 url: "/about/"
-summary: "About Otmane Echaibi — web developer, Pythonista, Rust/JavaScript/Lua/fish shell coder, amateur mathematician, bookworm, and old school internet user."
+summary: "About Otmane Echaibi — Perl developer, Raku hacker, C purist, digital nomad, marathon runner, internet comedian, and unrepentant old-school web user."
 hidemeta: true
 ShowReadingTime: false
 ShowShareButtons: false
@@ -11,22 +11,33 @@ ShowPostNavLinks: false
 
 ## Hi, I'm Otmane 👋
 
-I'm a **Tcl hacker** and **Python developer** who's spent the last several years building software from wherever the wifi is good — coffee shops, trains ... Call me a **digital nomad**, if you like labels.
+I’m a **Perl developer**, **Raku hacker**, and **internet comedian** who builds things (and breaks jokes) from wherever the coffee is strong and the Wi-Fi works. Call me a **digital nomad** if you must—mostly I'm just a guy with a laptop, wandering between trains and coffee shops.
 
-Python is home base, but I reach for **Tcl** whenever I need something small, weird, and precisely scriptable — plus **Rust**, **JavaScript**, **Lua**, and **fish shell** depending on the job.
+According to Larry Wall's sacred gospel, I try to cultivate the great programmer virtues: **Laziness, Impatience, and Hubris** *(with a healthy dose of stubbornness thrown in for good measure)*.
 
-I'm also an **old school internet user** — I remember when the web felt smaller, weirder, and more like a place people built rather than a product people consumed. That spirit still shapes how I write code and how I write here: plain text, RSS, no tracking, no nonsense.
+### Code & Philosophy
 
-By night, I chase problems that don't pay: I'm an **amateur mathematician** who enjoys number theory and the kind of proofs that ruin a good night's sleep in the best way. When I'm not proving things, I'm usually reading — a lifelong **bookworm**, rarely without something queued up next.
+I make my daily bread writing **Python** and **JavaScript**, but make no mistake: **my heart will always belong to Perl and Raku.** There is a special kind of magic in expressive, idiosyncratic languages that dare to have personality.
 
-This blog is where all of that collides: web development and Python write-ups, Rust/JS/Lua/fish notes and tools, math I find beautiful, book notes, and dispatches from the road.
+And while we're on the subject: **No language will ever replace C.** It remains the bedrock of reality.
+
+I’m also an **old-school internet user**. I remember when the web was built by weird individuals rather than farmed by giant platforms. That mindset drives everything I do here: plain text, valid RSS, fast load times, no tracking, and zero corporate fluff.
+
+### Off the Terminal
+
+When I'm not staring at a monospace font:
+- 🏃 **Running & Walking** — I run marathons and spend hours walking to let background processes debug in my head.
+- 📚 **Reading** — A voracious, lifelong bookworm. I'm rarely without several books on the go at any given time.
+- 🎭 **Internet Comedy** — Documenting the absurdities of life, technology, and online culture.
+
+---
 
 ### What you'll find here
-- **Code** — Python, Rust, JavaScript, Lua, and fish shell projects, tools, and hacks
-- **Math** — problems and proofs I find genuinely fun
-- **Books** — what I'm reading and what's stuck with me
-- **Internet culture** — old school web, small tech, and doing more with less
-- **Life on the road** — reflections from the digital nomad life
+- **Perl, Raku & Code** — Projects, scripts, C homages, and pragmatic Python/JS write-ups
+- **Old-School Web & Humor** — Satirical commentary, internet lore, and small-tech essays
+- **Books & Reading Notes** — Whatever has occupied my bookshelf recently
+- **Endurance & Movement** — Marathon logs, training notes, and long walks
+- **Nomad Dispatches** — Thoughts and stories from life on the move
 
 ### Get in touch
 - GitHub: [@otechai](https://github.com/otechai)
