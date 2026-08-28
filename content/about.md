@@ -11,9 +11,9 @@ ShowPostNavLinks: false
 
 ## Hi, I'm Otmane 👋
 
-I'm a **web developer** and **Pythonista** who's spent the last several years building software from wherever the wifi is good — coffee shops, trains ... Call me a **digital nomad**, if you like labels.
+I'm a **Tcl hacker** and **Python developer** who's spent the last several years building software from wherever the wifi is good — coffee shops, trains ... Call me a **digital nomad**, if you like labels.
 
-Python is home base, but I reach for **Rust**, **JavaScript**, **Lua**, and **fish shell** depending on the job — whether that's a performance-critical service, a browser UI, an embedded config layer, or just a clean interactive shell for getting things done.
+Python is home base, but I reach for **Tcl** whenever I need something small, weird, and precisely scriptable — plus **Rust**, **JavaScript**, **Lua**, and **fish shell** depending on the job.
 
 I'm also an **old school internet user** — I remember when the web felt smaller, weirder, and more like a place people built rather than a product people consumed. That spirit still shapes how I write code and how I write here: plain text, RSS, no tracking, no nonsense.
 

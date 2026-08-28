@@ -16,8 +16,8 @@ pagination.pagerSize = 10
 [params]
   env = "production"
   title = "Otmane Echaibi"
-  description = "Otmane Echaibi is a web developer and Pythonista who codes in Rust, JavaScript, Lua, and fish shell. Amateur mathematician, lifelong bookworm, and old school internet user writing about code, math, and books."
-  keywords = ["Otmane Echaibi", "otechai", "web developer", "python", "pythonista", "rust", "javascript", "lua", "fish shell", "old school internet", "digital nomad", "blog", "mathematics", "bookworm"]
+  description = "Otmane Echaibi is a Tcl hacker and Python developer. Amateur mathematician, lifelong bookworm, and old school internet user writing about code, math, and books."
+  keywords = ["Otmane Echaibi", "otechai", "tcl", "tcl hacker", "python", "python developer", "old school internet", "digital nomad", "blog", "mathematics", "amateur mathematician", "bookworm"]
   author = "Otmane Echaibi"
   images = ["img/profile.jpg"]
   DateFormat = "January 2, 2006"
@@ -39,12 +39,12 @@ pagination.pagerSize = 10
 
   [params.homeInfoParams]
     Title = "Hi, I'm Otmane 👋"
-    Content = "I'm a web developer and Pythonista who codes in Rust, JavaScript, Lua, and fish shell — old school internet user by nature, digital nomad by circumstance, mathematician and bookworm by hobby. This is where I write about code, numbers, books, and life between time zones."
+    Content = "I'm a Tcl hacker and Python developer — old school internet user by nature, digital nomad by circumstance, mathematician and bookworm by hobby. This is where I write about code, numbers, books, and life between time zones."
 
   [params.profileMode]
     enabled = true
     title = "Otmane Echaibi"
-    subtitle = "Web developer · Pythonista · Rust/JS/Lua/fish · Amateur mathematician · Bookworm"
+    subtitle = "Tcl hacker . Python devloper . Amateur mathematician"
     imageUrl = "img/profile.jpg"
     imageWidth = 150
     imageHeight = 150
