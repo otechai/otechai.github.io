@@ -16,8 +16,29 @@ pagination.pagerSize = 10
 [params]
   env = "production"
   title = "Otmane Echaibi"
-  description = "Otmane Echaibi is a Tcl hacker and Python developer. Amateur mathematician, lifelong bookworm, and old school internet user writing about code, math, and books."
-  keywords = ["Otmane Echaibi", "otechai", "tcl", "tcl hacker", "python", "python developer", "old school internet", "digital nomad", "blog", "mathematics", "amateur mathematician", "bookworm"]
+  description = "Otmane Echaibi is a seasonal agricultural expert by trade, and a Python developer, JavaScript artist, C hacker, and Scheme thinker by passion. Also an Odoo expert, marathon runner, bookworm, and amateur comedian who loves binge-watching movies."
+  keywords = [
+    "Otmane Echaibi",
+    "otechai",
+    "python",
+    "python developer",
+    "javascript",
+    "javascript artist",
+    "c programming",
+    "c hacker",
+    "scheme",
+    "scheme thinker",
+    "odoo",
+    "odoo expert",
+    "agricultural expert",
+    "seasonal agriculture",
+    "open source",
+    "amateur comedian",
+    "marathon runner",
+    "bookworm",
+    "movies",
+    "blog"
+  ]
   author = "Otmane Echaibi"
   images = ["img/profile.jpg"]
   DateFormat = "January 2, 2006"
@@ -39,12 +60,12 @@ pagination.pagerSize = 10
 
   [params.homeInfoParams]
     Title = "Hi, I'm Otmane 👋"
-    Content = "I'm a Tcl hacker and Python developer — old school internet user by nature, digital nomad by circumstance, mathematician and bookworm by hobby. This is where I write about code, numbers, books, and life between time zones."
+    Content = "I'm a seasonal agricultural expert by trade — that's where my income comes from. On the side, I'm a Python developer, JavaScript artist, C hacker, Scheme thinker, Odoo expert, marathon runner, bookworm, amateur comedian, and movie binge-watcher."
 
   [params.profileMode]
     enabled = true
     title = "Otmane Echaibi"
-    subtitle = "Tcl hacker . Python devloper . Amateur mathematician"
+    subtitle = "Python developer . Javascript artist . C hacker . Scheme thinker"
     imageUrl = "img/profile.jpg"
     imageWidth = 150
     imageHeight = 150
