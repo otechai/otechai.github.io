@@ -1,171 +1,164 @@
-baseURL = "https://otechai.github.io/"
+baseURL = "https://taginetimes.com/"
 locale = "en-us"
-title = "Otmane Echaibi"
-theme = "PaperMod"
+defaultContentLanguage = "en"
+title = "Tagine Times"
+theme = "congo"
+
 enableRobotsTXT = true
 enableEmoji = true
+summaryLength = 40
 
-pagination.pagerSize = 10
-
-[minify]
-  disableXML = true
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
+  [privacy.youTube]
+    privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true
+
 [params]
-  env = "production"
-  title = "Otmane Echaibi"
-  description = "Otmane Echaibi is a Perl developer and Linux kernel contributor, Python developer, JavaScript artist, Fish shell user, and Raku thinker. Also a marathon runner and bookworm who loves binge-watching movies."
+  # -- Brand & metadata --
+  description = "Tagine Times — Moroccan satire, fully sourced. Real bureaucracy, real contradictions, zero fake scandals."
   keywords = [
-    "Otmane Echaibi",
-    "otechai",
-    "perl",
-    "perl developer",
-    "linux kernel",
-    "linux kernel contributor",
-    "python",
-    "python developer",
-    "javascript",
-    "javascript artist",
-    "fish shell",
-    "raku",
-    "open source",
-    "marathon runner",
-    "bookworm",
-    "movies",
-    "blog"
+    "Morocco satire",
+    "Moroccan satire",
+    "Morocco satire news",
+    "Morocco political satire",
+    "Moroccan satire site",
+    "Morocco comedy",
+    "Morocco humor blog",
+    "Darija satire",
+    "Morocco bureaucracy jokes",
+    "Moroccan news satire",
+    "civic satire Morocco",
+    "Tagine Times"
   ]
-  author = "Otmane Echaibi"
-  images = ["img/profile.jpg"]
-  DateFormat = "January 2, 2006"
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  ShowFullTextinRSS = true
-  UseHugoToc = true
-  disableSpecial1stPost = false
-  hidemeta = false
-  comments = false
+  images = ["img/profile.png"]
+  dateFormat = "2 January 2006"
   mainSections = ["posts"]
 
-  [params.homeInfoParams]
-    Title = "Hi, I'm Otmane 👋"
-    Content = "I'm a Perl developer and Linux kernel contributor, coding in Python, JavaScript, Perl, Fish shell, and Raku. Also a marathon runner, bookworm, and movie binge-watcher."
+  colorScheme = "fire"
+  defaultAppearance = "light"
+  autoSwitchAppearance = true
 
-  [params.profileMode]
-    enabled = true
-    title = "Perl developer . Linux hacker . Raku artist . Web programmer"
-    subtitle = "what a time to be alive."
-    imageUrl = "img/profile.jpg"
-    imageWidth = 150
-    imageHeight = 150
-    imageTitle = "Otmane Echaibi"
-    buttons = [
-      { name = "Blog", url = "posts" },
-      { name = "About", url = "about" },
-      { name = "Tags", url = "tags" }
-    ]
+  enableSearch = true
+  enableCodeCopy = true
+  enableImageLazyLoading = true
+  enableImageWebp = true
+  enableQuicklink = true
+  fingerprintAlgorithm = "sha256"
 
-  [params.cover]
-    hidden = false
-    hiddenInList = false
-    hiddenInSingle = false
+  [params.author]
+    name = "The Tagine Times"
+    image = "img/profile.png"
+    bio = "We love Morocco enough to make fun of it. Not the postcard Morocco — the one where you need a photocopy of a document to prove you possess the original. Facts are not jokes; reality is the raw material for jokes. If we can't source it, we don't run it."
 
-  [params.editPost]
-    URL = "https://github.com/otechai/otechai.github.io/tree/main/content"
-    Text = "Suggest changes"
-    appendFilePath = true
+  [params.header]
+    layout = "basic" # valid options: basic, hamburger, hybrid, custom
+    logo = "img/profile.png"
+    showTitle = false
 
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
+  [params.footer]
+    showCopyright = true
+    showThemeAttribution = false
+    showAppearanceSwitcher = true
+    showScrollToTop = true
 
-  # Explicit favicon paths — PaperMod's auto-detection sometimes loses to
-  # aggressive browser favicon caching; declaring these forces a fresh fetch.
-  [params.assets]
-    favicon = "favicon.ico"
-    favicon16x16 = "favicon.ico"
-    favicon32x32 = "favicon.ico"
-    apple_touch_icon = "apple-touch-icon.png"
-    disableFingerprinting = false
+  [params.homepage]
+    layout = "profile" # valid options: page, profile, custom
+    showRecent = true
+    recentLimit = 8
 
-  # SEO: verification meta tags (paste your codes in once you register the site)
-  [params.analytics.google]
-    SiteVerificationTag = ""   # Google Search Console verification string
+  [params.article]
+    showDate = true
+    showDateUpdated = false
+    showAuthor = true
+    showBreadcrumbs = true
+    showDraftLabel = true
+    showEdit = false
+    editURL = "https://github.com/otechai/otechai.github.io/tree/main/content"
+    editAppendPath = true
+    showHeadingAnchors = true
+    showPagination = true
+    invertPagination = false
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = true
+    showWordCount = false
+    showComments = false
 
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+  [params.list]
+    showBreadcrumbs = true
+    showSummary = true
+    showTableOfContents = false
+    showTaxonomies = true
+    groupByYear = false
+    paginationWidth = 1
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/otechai"
+  [params.sitemap]
+    excludedKinds = ["taxonomy", "term"]
 
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:otmanova@proton.me"
+  [params.taxonomy]
+    showTermCount = true
 
-[[params.socialIcons]]
-  name = "rss"
-  url = "index.xml"
-
-[[params.socialIcons]]
-  name = "buymeacoffee"
-  url = "https://www.buymeacoffee.com/otechai"
-
-# Add more later as you create accounts, e.g.:
-# [[params.socialIcons]]
-#   name = "x"
-#   url = "https://x.com/your_handle"
-#
-# [[params.socialIcons]]
-#   name = "mastodon"
-#   url = "https://mastodon.social/@your_handle"
+  [params.verification]
+    # google = ""
+    # bing = ""
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    name = "Dispatches"
+    pageRef = "posts"
     weight = 10
   [[menu.main]]
-    identifier = "about"
     name = "About"
-    url = "/about/"
+    pageRef = "about"
     weight = 20
   [[menu.main]]
-    identifier = "tags"
     name = "Tags"
-    url = "/tags/"
+    pageRef = "tags"
     weight = 30
   [[menu.main]]
     identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 40
+    weight = 90
+    [menu.main.params]
+      action = "search"
+  [[menu.main]]
+    identifier = "appearance"
+    weight = 100
+    [menu.main.params]
+      action = "appearance"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
   [markup.highlight]
     noClasses = false
     codeFences = true
     guessSyntax = true
     lineNos = true
     style = "monokai"
-  [markup.goldmark.renderer]
-    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
